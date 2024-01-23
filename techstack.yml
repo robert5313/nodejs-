@@ -1,0 +1,57 @@
+repo_name: robert5313/nodejs-
+report_id: f11658d4eeb7071ad3e4f1c28ac78a2b
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-23T17:44:11+00:00'
+requested_by: robert5313
+provider: github
+branch: main
+detected_tools_count: 4
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/robert5313/nodejs-
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/robert5313/nodejs-
+  detection_source: Repo Metadata
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 2.0.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/robert5313/nodejs-/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Robert Kimaiyo
+  last_updated_on: 2022-08-18 08:09:25.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/robert5313/nodejs-/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Robert Kimaiyo
+  last_updated_on: 2022-08-18 08:09:25.000000000 Z
